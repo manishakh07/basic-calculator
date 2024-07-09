@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+html, body {
+  background-color:rgb(30, 23, 23); 
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif; 
+}
+
+.button{
+  width: 66px;
+  padding: 20px;
+  margin: 0 3px;
+  border: 2px solid black;
+  border-radius: 9px;
+  cursor: pointer;
+  font-size: medium;
+}
+
+#clear{
+    color: rgb(0, 0, 0);
+    background-color: rgb(165, 32, 32);
+    width: 144px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    font-size: medium;
+}
+
+.button:hover{
+    background-color:yellow;
+    font-size: 15px;
+}
+.row input:hover{
+    border-color: yellowgreen;
+    font-size: 20px;
+
+}
+.row{
+  margin: 8px 0;
+}
+.row input{
+    width: 291px;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.top{
+
+    line-height: 60px;
+    text-align: center;
+    color:white;
+    background-color:rgb(76, 48, 48);
+}
+  
+.container{
+  line-height: 60px;
+  margin: auto;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#equals{
+  color: rgb(0, 0, 0);
+  background-color: rgb(205, 188, 73);
+  width: 66px;
+  padding: 20px;
+  margin: 0 3px;
+  border: 2px solid black;
+  border-radius: 9px;
+  cursor: pointer;
+  font-size: medium;
+}
+
+
+  
